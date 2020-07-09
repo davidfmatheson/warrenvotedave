@@ -13,16 +13,31 @@
                     <a class="nav-link" routerLink="/home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/home">About</a>
+                    <a class="nav-link" routerLink="/about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" routerLink="/home">The Process</a>
                 </li>
             </ul>
             <ul class="navbar-nav social-buttons">
-                <li class="nav-link"><fa-icon size="2x" [icon]="['fab', 'twitter']" [styles]="{'stroke': 'white', 'color': '#0057b1'}"></fa-icon></li>
-                <li class="nav-link"><fa-icon size="2x" [icon]="['fab', 'facebook']" [styles]="{'stroke': 'white', 'color': '#0057b1'}"></fa-icon></li>
-                <li class="nav-link"><fa-icon size="2x" [icon]="['fab', 'github']" [styles]="{'stroke': 'white', 'color': '#0057b1'}"></fa-icon></li>
+                <li class="nav-link">
+                    <a class="btn btn-primary btn-donate" href="/donate" role="button">Donate</a>
+                </li>
+                <li class="nav-link">
+                    <a href="https://twitter.com/davidfmatheson" target="_blank">
+                        <fa-icon size="2x" [icon]="['fab', 'twitter']" [styles]="{'stroke': 'white', 'color': '#0057b1'}"></fa-icon>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="https://www.facebook.com/davidmatheson4BWRSC" target="_blank">
+                        <fa-icon size="2x" [icon]="['fab', 'facebook']" [styles]="{'stroke': 'white', 'color': '#0057b1'}"></fa-icon>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="https://github.com/davidfmatheson/warrenvotedave" target="_blank">
+                        <fa-icon size="2x" [icon]="['fab', 'github']" [styles]="{'stroke': 'white', 'color': '#0057b1'}"></fa-icon>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
