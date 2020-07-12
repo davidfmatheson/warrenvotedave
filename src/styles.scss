@@ -3,7 +3,9 @@
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
+$base-color: #70ceeb;
+
 .btn-donate {
-    background-color: #0057b1;
-    border-color: #0057b1;
+    background-color: $base-color;
+    border-color: $base-color;
 }
