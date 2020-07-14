@@ -1,5 +1,13 @@
+$base-color: #70ceeb;
+
 .jumbotron h1 {
-    color: #70ceeb;
+    color: $base-color;
+}
+
+.btn-donate {
+    color: #ffffff;
+    background-color: $base-color;
+    border-color: $base-color;
 }
 
 .btn-secondary {
