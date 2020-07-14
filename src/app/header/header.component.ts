@@ -9,6 +9,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  navbarOpen = false;
+
   constructor(library: FaIconLibrary) {
     library.addIconPacks(fas);
     library.addIconPacks(fab);
@@ -17,4 +19,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toggleNavbar() {
+    this.navbarOpen = !this.navbarOpen;
+  }
 }
