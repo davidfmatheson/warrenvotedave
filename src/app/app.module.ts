@@ -10,6 +10,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './about/about.component';
 import { DonateComponent } from './donate/donate.component';
 import { IframeResizerDirective } from './iframe-resizer.directive';
+import { IssuesComponent } from './issues/issues.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { IframeResizerDirective } from './iframe-resizer.directive';
     HomeComponent,
     AboutComponent,
     DonateComponent,
-    IframeResizerDirective
+    IframeResizerDirective,
+    IssuesComponent
   ],
   imports: [
     BrowserModule,

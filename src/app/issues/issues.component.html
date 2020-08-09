@@ -1,0 +1,112 @@
+<div class="container pt-4">
+    <div class="row">
+        <div class="col-sm">
+            <div class="card shadow-sm">
+                <div class="p-3">
+                    <div class="card-body">
+                        <h4>Safe &amp; Equitable Return</h4>
+                        <p>
+                            I believe in returning kids to school only when it is safe, while ensuring that
+                            those whose educational needs are not served by distance learning still receive a quality education.
+                        </p>
+                        <p>
+                            <button type="button" class="btn btn-secondary" (click)="isReturnCollapsed = !isReturnCollapsed"
+                                    [attr.aria-expanded]="!isReturnCollapsed" aria-controls="return">
+                                Read More...
+                            </button>
+                        </p>
+                        <div id="return" [ngbCollapse]="isReturnCollapsed">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="text-muted">
+                                        Distance learning is an option that we should strive to improve, so that parents who
+                                        feel their kids can learn effectively can take that option. It reduces the number
+                                        of kids in the building, making it safer for everyone. For parents whose kids
+                                        require in-person learning, we should have plans in place to ensure they are distanced,
+                                        masked, and in a stable group.
+                                    </p>
+                                    <p class="text-muted">
+                                        Parents should be made aware of the level of risk the school is assuming, based on daily metrics 
+                                        from the Rhode Island Department of Health. Plans should be communicated with ample time
+                                        for parents to digest and make their choices, with knowledge of what happens in the event
+                                        of an infection, either student or teacher.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card shadow-sm">
+                <div class="p-3">
+                    <div class="card-body">
+                        <h4>Improved Technology</h4>
+                        <p>
+                            As an experienced software engineer, I can help evaluate new technology platforms,
+                            steer decisions on improved STEM cirruculum, and improve our after-school initiatives.
+                        </p>
+                        <p>
+                            <button type="button" class="btn btn-secondary" (click)="isTechCollapsed = !isTechCollapsed"
+                                    [attr.aria-expanded]="!isTechCollapsed" aria-controls="tech">
+                                Read More...
+                            </button>
+                        </p>
+                        <div id="tech" [ngbCollapse]="isTechCollapsed">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="text-muted">
+                                        I have spent the last two years running the Coding Club at Kickemuit Middle School. Given 
+                                        the opportunity to interact with novel technology and a familiar game environment like Minecraft,
+                                        kids in this age group are adept and creative. We can bring more advanced technology into
+                                        the classroom, and also provide new after-school programs for all levels.
+                                    </p>
+                                    <p class="text-muted">
+                                        Techology initiatives like these serve kids on a variety of different post-secondary paths:
+                                        Four-year Computer Science degrees, two-year community college developer or technology programs,
+                                        or self-taught certification.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card shadow-sm">
+                <div class="p-3">
+                    <div class="card-body">
+                        <h4>Budget Transparency</h4>
+                        <p>
+                            We should all be able to see where our money is going in the budget. A transparent,
+                            accessible budgeting process is key to discussing our priorities in our education dollars.
+                        </p>
+                        <p>
+                            <button type="button" class="btn btn-secondary" (click)="isBudgetCollapsed = !isBudgetCollapsed"
+                                    [attr.aria-expanded]="!isBudgetCollapsed" aria-controls="budget">
+                                Read More...
+                            </button>
+                        </p>
+                        <div id="budget" [ngbCollapse]="isBudgetCollapsed">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="text-muted">
+                                        Working with spreadsheets and churning through numbers is what I love to do.
+                                        I will bring a keen eye and an analytical mind to our budgeting process. I want to know where
+                                        our money is going, and how we can get the most out of the dollars that are available.
+                                    </p>
+                                    <p class="text-muted">
+                                        We should all have a clear sense of how those dollars are allocated, so that we can have a
+                                        fair discussion of what our priorities are. I will work to make that happen.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

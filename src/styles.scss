@@ -8,3 +8,14 @@ $base-color: #70ceeb;
 h1, h2, h3, h4 {
     color: $base-color;
 }
+
+.btn-secondary, .btn-secondary:focus, .btn-secondary:active  {
+    background-color: #ed1b24;
+    border-color: #ed1b24;
+}
+
+.btn-secondary:hover {
+    color: #ed1b24;
+    background-color: #ffffff;
+    border-color: #ed1b24;
+}
