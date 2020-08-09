@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { DonateComponent } from './donate/donate.component';
 import { IframeResizerDirective } from './iframe-resizer.directive';
 import { IssuesComponent } from './issues/issues.component';
+import { PressComponent } from './press/press.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { IssuesComponent } from './issues/issues.component';
     AboutComponent,
     DonateComponent,
     IframeResizerDirective,
-    IssuesComponent
+    IssuesComponent,
+    PressComponent
   ],
   imports: [
     BrowserModule,
